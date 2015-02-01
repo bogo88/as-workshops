@@ -19,31 +19,31 @@ Dodatkowo:
 
 ### List
 
-```request
+```http
 GET /profiles/
 ```
 
 ### Dodawanie
 
-```request
+```http
 POST /profiles/
 ```
 
 ### Podgląd
 
-```request
+```http
 GET /profile/id/
 ```
 
 ### Edycja
 
-```request
+```http
 PUT /profile/id/
 ```
 
 ### Usuwanie
 
-```request
+```http
 DELETE /profile/id/
 ```
 
