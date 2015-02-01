@@ -20,31 +20,31 @@ Dodatkowo:
 ### List
 
 ```http
-GET /profiles/
+GET /employees/
 ```
 
 ### Dodawanie
 
 ```http
-POST /profiles/
+POST /employees/
 ```
 
 ### Podgląd
 
 ```http
-GET /profile/id/
+GET /employee/id/
 ```
 
 ### Edycja
 
 ```http
-PUT /profile/id/
+PUT /employee/id/
 ```
 
 ### Usuwanie
 
 ```http
-DELETE /profile/id/
+DELETE /employee/id/
 ```
 
 
