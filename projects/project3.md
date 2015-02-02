@@ -14,30 +14,36 @@ Api
 
 Głosowanie
 ~~~~~~~~~~
+
 ```http
 GET /vote
 ```
 
 Oddanie głosu
 ~~~~~~~~~~~~~
+
 ```http
 POST /vote/id/
 ```
 
 Formularz opcji głosowania
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ```http
 GET /create/
 ```
 
 Stworzenie nowej opcji głosowania (dziś)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ```http
 POST /create/
 ```
 
 Wyniki ankiety
-```
+~~~~~~~~~~~~~~
+
+```http
 GET /results/data/
 ```
 
