@@ -8,13 +8,6 @@ Serwis powinien on zawierać wszystkie stałe cechy pracownika przydatne w firmi
 * Nazwisko
 * Stanowisko
 
-Dodatkowo:
-
-* Znane języki programowania
-* Projekty
-* Zespół
-* Zdjęcie
-
 ## API
 
 ### List
