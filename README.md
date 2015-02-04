@@ -8,14 +8,14 @@
 - [Flask](http://flask.readthedocs.org)
 - [Awesome Flask](https://github.com/humiaozuzu/awesome-flask)
 
-## Level 0
+## Level 1
 Postawić aplikację HTTP, która będzie zwracała jakąkolwiek odpowiedź 
 
-## Level 1
+## Level 2
 Zaimplementować API
 
-## Level 2
+## Level 3
 Logowanie przez OAuth2 
 
-## Level 3..*
+## Level 4..*
 Pytaj Adama :)
