@@ -18,7 +18,10 @@ Postawić aplikację HTTP, która będzie zwracała jakąkolwiek odpowiedź
 Zaimplementować API
 
 ## Level 3
+Testy
+
+## Level 4
 Logowanie przez OAuth2 
 
-## Level 4..*
+## Level 5..*
 Pytaj Adama :)
