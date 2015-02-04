@@ -46,8 +46,3 @@ PUT /absence/id/
 DELETE /absence/id/
 ```
 
-
-## Extra
-
-* dodawanie dni wolnych od pracy
-* delegacje (funkcjonalność podobnie jak wyżej tylko dla delegacji)
