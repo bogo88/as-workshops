@@ -1,46 +1,42 @@
-#Głosowanie na dzisiejszy obiad
+# Zapisy na obiad
 
-Projekt ma ułatwić podejmowanie decyzji 'co dziś na obiad'.
+Celem projektu jest stworzenie aplikacji do zapisów na obiady.
 
-##Spec
+## Cele
 
-Każdy z użytkowników (imię i nazwisko) mogą danego dnia dodać max trzy propozycje obiadu na dany dzień.
-Każdy może oddać głos na jedno z dań które danego dnia zostały dodane.
+* Tworzenie lunch'u: dzień i danie
+* Zapisy pracownika na dany lunch
+* podsumowanie lunchu na dany okres czasu (ile zapisanych osób)
+* podsumowanie lunchu dla pracownika na dany okres czasu
 
-##Api
 
-###Głosowanie
+## API
 
-``` http
-GET /vote
-```
-
-###Oddanie głosu
-
+### List
 ```http
-POST /vote/id/
+GET /lunch/
 ```
+Query:
+* zakres dat
+* głodomory
 
-###Formularz opcji głosowania
-
+### Create
 ```http
-GET /create/
+POST /lunch/
 ```
 
-###Stworzenie nowej opcji głosowania (dziś)
-
+### Detail
 ```http
-POST /create/
+GET /lunch/<id>/
 ```
 
-###Wyniki ankiety
-
+### Subscribe
 ```http
-GET /results/data/
+POST /lunch/<id>/hungry/
 ```
 
-##Extra
+### Unsubscribe
+```http
+DELETE /lunch/<id>/hungry/<employee>/
+```
 
-* Użytkownik może zmienić głos
-* Użytkownik może zmienić głos, ale tylko do godz 12
-* Dodatkowy opis opcji głosowania (np link do menu)
