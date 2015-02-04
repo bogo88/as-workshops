@@ -1,8 +1,11 @@
 # Projekty
 
 * [Project 1 - Pracownicy](projects/project1.md)
+  * Osiągnięty level: 0
 * [Project 2 - Urlopy](projects/project2.md)
+  * Osiągnięty level: 0
 * [Project 3 - Lunch](projects/project3.md)
+  * Osiągnięty level: 0
 
 ## Toolbox
 - [Flask](http://flask.readthedocs.org)
