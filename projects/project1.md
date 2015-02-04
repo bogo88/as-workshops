@@ -47,8 +47,3 @@ PUT /employee/id/
 DELETE /employee/id/
 ```
 
-
-## Extra
-
-* pobieranie najbliższych urlopów pracownika
-* pobieranie kiedy pracownik ostatni raz miał dyżur
