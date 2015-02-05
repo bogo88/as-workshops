@@ -2,6 +2,10 @@
 
 Celem projektu jest zarządzanie informacją o urlopach pracowników
 
+## Zapisani
+* Bogo
+
+
 ## Spec
 Serwis powinien dawać możliwość dodawania, usuwania i wyszukiwania dni, w których
 pracownik jest niedostępny
