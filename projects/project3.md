@@ -2,6 +2,9 @@
 
 Celem projektu jest stworzenie aplikacji do zapisów na obiady.
 
+## Zapisani
+* Tomek
+
 ## Cele
 
 * Tworzenie lunch'u: dzień i danie
