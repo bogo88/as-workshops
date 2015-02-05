@@ -2,6 +2,10 @@
 
 Celem projektu jest stworzenie serwisu do trzymania profili pracowników.
 
+## Zapisani
+* Mateusz
+* Adrian
+
 ## Spec
 Serwis powinien on zawierać wszystkie stałe cechy pracownika przydatne w firmie takie jak:
 * Imię
