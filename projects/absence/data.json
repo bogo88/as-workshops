@@ -1,0 +1,34 @@
+        {
+            "name":"Jan",
+            "surname":"Kowalski",
+            "absence_start":"2015-02-14",
+            "absence_end":"2015-02-28"
+        },
+
+        {
+            "name":"Jan",
+            "surname":"Nowak",
+            "absence_start":"2015-02-01",
+            "absence_end":"2015-02-13"
+        },
+
+        {
+            "name":"Anna",
+            "surname":"Kowalska",
+            "absence_start":"2015-02-06",
+            "absence_end":"2015-02-16"
+        },
+
+        {
+            "name":"Anna",
+            "surname":"Nowak",
+            "absence_start":"2015-02-01",
+            "absence_end":"2015-02-02"
+        },
+
+        {
+            "name":"Marek",
+            "surname":"Marecki",
+            "absence_start":"2015-02-19",
+            "absence_end":"2015-02-28"
+        }
