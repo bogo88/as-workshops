@@ -6,11 +6,21 @@ class TestList(unittest.TestCase):
 
     def setUp(self):
         app.app.config['TESTING'] = True
+
+        app.app.db = app.client.test_db
+
         self.app = app.app.test_client()
+        client = app.client
+        self.db = client.test_db
+
+        self.db.absence.insert(new_data)
 
     def test_list(self):
         resp = self.app.get('/absence')
         self.assertEqual('Absence list', resp.data)
+
+    def tearDown(self):
+        app.app.db.remove()
 
 
 class TestDetail(unittest.TestCase):
